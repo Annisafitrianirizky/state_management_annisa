@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import './views/plan_screen.dart';
+import './provider/plan_provider.dart';
+import './models/data_layer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      theme: ThemeData(primarySwatch: Colors.purple,
       ),
-      home: PlanScreen(),
+      home:  PlanProvider(
+    notifier: ValueNotifier<Plan>(const Plan()),
+    child: const PlanScreen(),
+   ),
       debugShowCheckedModeBanner: false,
     );
   }
