@@ -9,3 +9,9 @@ Praktikum 2
 ![take2](./state_management_annisa/assets/images/master_plan2.gif)
 
 Berikut adalah hasil dari praktikum 2, yang berupa aplikasi pencatatan tugas sederhana berbasis model-view dan menggunakan InheritedNotifier untuk mentracking perubahan pada ValueNotifier<Plan>
+
+Praktikum 3
+
+![take3](./state_management_annisa/assets/images/master_plan3.gif)
+
+Berikut adalah hasil dari praktikum 3, aplikasi ini memungkinkan pengguna untuk membuat dan mengelola daftar rencana. Ketika pengguna mengetik dan menambahkan rencana baru, daftar tersebut langsung diperbarui dan ditampilkan di layar. Jika salah satu rencana diklik, aplikasi akan berpindah ke layar lain yang berisi detail rencana tersebut, termasuk daftar tugas yang bisa ditandai sebagai selesai.
